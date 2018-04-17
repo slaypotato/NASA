@@ -6,9 +6,9 @@ Let's imagine that a group of probes were sent by NASA to Mars and will land on 
 The probe position and direction are represented by a array X-Y and a letter representing the cardinal point from the compass card.
 The plateau is divided in an array to simplify navigating it. An example of a position would be (0,0,N) which tells us that the probe is on the on the lower left corner pointed to North.
 To control it, NASA send a simple sequence of letters, which represents:
-L = Turn left
-R = Turn right
-M = Move forward
+- L = Turn left
+- R = Turn right
+- M = Move forward
 In this array, the North is represented by (x,y+1).
 
 ## Data Format
@@ -19,14 +19,14 @@ The output is represented by one line with the coordinates and direction of the 
 
 ## Examples
 #### Data entry:
-5 5
+'''5 5
 1 2 N
 LMLMLMLMM
 3 3 E
-MMRMMRMRRM
+MMRMMRMRRM'''
 
 ## Expected Output:
-1 3 N
-5 1 E
+'''1 3 N
+5 1 E'''
 
 This software is product of an technical evaluation process.
